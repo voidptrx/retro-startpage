@@ -1,0 +1,31 @@
+{
+    "name": "re-start",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build --outDir dist/firefox",
+        "build:firefox": "vite build --outDir dist/firefox",
+        "build:chrome": "vite build --outDir dist/chrome",
+        "build:chrome:prod": "CLIENT_ENV=prod vite build --outDir dist/chrome",
+        "build:chrome:dev": "CLIENT_ENV=dev vite build --outDir dist/chrome",
+        "watch": "vite build --outDir dist/firefox --watch",
+        "watch:firefox": "vite build --outDir dist/firefox --watch",
+        "watch:chrome": "vite build --outDir dist/chrome --watch",
+        "watch:chrome:prod": "CLIENT_ENV=prod vite build --outDir dist/chrome --watch",
+        "watch:chrome:dev": "CLIENT_ENV=dev vite build --outDir dist/chrome --watch",
+        "preview": "vite preview",
+        "test": "vitest run"
+    },
+    "devDependencies": {
+        "@sveltejs/adapter-static": "^3.0.10",
+        "@sveltejs/vite-plugin-svelte": "^6.2.4",
+        "svelte": "^5.46.1",
+        "vite": "^7.3.1",
+        "vitest": "^4.0.16"
+    },
+    "dependencies": {
+        "@fontsource-variable/geist-mono": "^5.2.7"
+    }
+}
