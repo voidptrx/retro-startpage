@@ -8,7 +8,6 @@
 
 :root {
   --bg: #000000;
-  --bg2: #000000;
   --border: #2a2a37;
   --dim: #54546d;
   --muted: #716e8c;
@@ -25,7 +24,7 @@
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: "JetBrainsMono NFM", monospace;
+  font-family: "Terminess Nerd Font Propo", monospace;
   font-size: 100%;
   font-weight: bold;
   line-height: 1.5;
@@ -46,11 +45,11 @@ body {
   border: 2px solid var(--border);
   position: relative;
   padding: 16px 18px;
-  background: var(--bg2);
+  background: var(--bg);
 }
 .widget-label {
   position: absolute;
-  top: -14px;
+  top: -13px;
   left: 14px;
   background: var(--bg);
   padding: 0 6px;
