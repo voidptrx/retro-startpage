@@ -49,12 +49,12 @@ body {
 }
 .widget-label {
   position: absolute;
-  top: -13px;
-  left: 14px;
+  top: -15px;
+  left: 15px;
   background: var(--bg);
   padding: 0 6px;
   color: var(--label);
-  font-size: 15px;
+  font-size: 17px;
 }
 
 /* ── TOP ROW ── */
